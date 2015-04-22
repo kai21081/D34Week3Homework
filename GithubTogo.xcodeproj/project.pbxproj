@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F5803E31AE1608400AE81F9 /* GithubService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5803E21AE1608400AE81F9 /* GithubService.swift */; };
+		4F5803E51AE1609600AE81F9 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5803E41AE1609600AE81F9 /* Repository.swift */; };
+		4F5803E71AE160A600AE81F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5803E61AE160A600AE81F9 /* Constants.swift */; };
+		4F5803E91AE1735500AE81F9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5803E81AE1735500AE81F9 /* User.swift */; };
+		4F5803EB1AE1737E00AE81F9 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5803EA1AE1737E00AE81F9 /* UserViewController.swift */; };
+		4F95F77F1AE4E069002FA8A7 /* OAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F95F77E1AE4E069002FA8A7 /* OAuthService.swift */; };
 		4FA90A111ADED97800C56723 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90A101ADED97800C56723 /* MainMenuViewController.swift */; };
 		4FA90A131ADEDE7400C56723 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA90A121ADEDE7400C56723 /* RepositoryViewController.swift */; };
 		4FC0CA391ADC5ACC005410F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0CA381ADC5ACC005410F6 /* AppDelegate.swift */; };
@@ -14,6 +20,8 @@
 		4FC0CA401ADC5ACC005410F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA3F1ADC5ACC005410F6 /* Images.xcassets */; };
 		4FC0CA431ADC5ACC005410F6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FC0CA411ADC5ACC005410F6 /* LaunchScreen.xib */; };
 		4FC0CA4F1ADC5ACC005410F6 /* GithubTogoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC0CA4E1ADC5ACC005410F6 /* GithubTogoTests.swift */; };
+		4FFBD6201AE4A97900DC457F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD61F1AE4A97900DC457F /* LoginViewController.swift */; };
+		4FFBD6221AE4BC5300DC457F /* JSONParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD6211AE4BC5300DC457F /* JSONParseService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F5803E21AE1608400AE81F9 /* GithubService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubService.swift; sourceTree = "<group>"; };
+		4F5803E41AE1609600AE81F9 /* Repository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		4F5803E61AE160A600AE81F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4F5803E81AE1735500AE81F9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4F5803EA1AE1737E00AE81F9 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		4F95F77E1AE4E069002FA8A7 /* OAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthService.swift; sourceTree = "<group>"; };
 		4FA90A101ADED97800C56723 /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		4FA90A121ADEDE7400C56723 /* RepositoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
 		4FC0CA331ADC5ACC005410F6 /* GithubTogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubTogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +52,8 @@
 		4FC0CA481ADC5ACC005410F6 /* GithubTogoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubTogoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FC0CA4D1ADC5ACC005410F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FC0CA4E1ADC5ACC005410F6 /* GithubTogoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubTogoTests.swift; sourceTree = "<group>"; };
+		4FFBD61F1AE4A97900DC457F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		4FFBD6211AE4BC5300DC457F /* JSONParseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F5803DF1AE04DCC00AE81F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F5803E21AE1608400AE81F9 /* GithubService.swift */,
+				4F5803E41AE1609600AE81F9 /* Repository.swift */,
+				4F5803E61AE160A600AE81F9 /* Constants.swift */,
+				4F5803E81AE1735500AE81F9 /* User.swift */,
+				4FFBD6211AE4BC5300DC457F /* JSONParseService.swift */,
+				4F95F77E1AE4E069002FA8A7 /* OAuthService.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F5803E01AE04E1300AE81F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FC0CA3C1ADC5ACC005410F6 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4F5803E11AE04E1800AE81F9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4FFBD61F1AE4A97900DC457F /* LoginViewController.swift */,
+				4FA90A121ADEDE7400C56723 /* RepositoryViewController.swift */,
+				4FA90A101ADED97800C56723 /* MainMenuViewController.swift */,
+				4F5803EA1AE1737E00AE81F9 /* UserViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		4FC0CA2A1ADC5ACC005410F6 = {
 			isa = PBXGroup;
 			children = (
@@ -80,9 +128,9 @@
 			isa = PBXGroup;
 			children = (
 				4FC0CA381ADC5ACC005410F6 /* AppDelegate.swift */,
-				4FC0CA3C1ADC5ACC005410F6 /* Main.storyboard */,
-				4FA90A121ADEDE7400C56723 /* RepositoryViewController.swift */,
-				4FA90A101ADED97800C56723 /* MainMenuViewController.swift */,
+				4F5803DF1AE04DCC00AE81F9 /* Model */,
+				4F5803E01AE04E1300AE81F9 /* View */,
+				4F5803E11AE04E1800AE81F9 /* Controller */,
 				4FC0CA3F1ADC5ACC005410F6 /* Images.xcassets */,
 				4FC0CA411ADC5ACC005410F6 /* LaunchScreen.xib */,
 				4FC0CA361ADC5ACC005410F6 /* Supporting Files */,
@@ -215,9 +263,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFBD6201AE4A97900DC457F /* LoginViewController.swift in Sources */,
 				4FA90A111ADED97800C56723 /* MainMenuViewController.swift in Sources */,
+				4F5803EB1AE1737E00AE81F9 /* UserViewController.swift in Sources */,
 				4FA90A131ADEDE7400C56723 /* RepositoryViewController.swift in Sources */,
+				4F95F77F1AE4E069002FA8A7 /* OAuthService.swift in Sources */,
+				4F5803E51AE1609600AE81F9 /* Repository.swift in Sources */,
+				4F5803E31AE1608400AE81F9 /* GithubService.swift in Sources */,
+				4FFBD6221AE4BC5300DC457F /* JSONParseService.swift in Sources */,
 				4FC0CA391ADC5ACC005410F6 /* AppDelegate.swift in Sources */,
+				4F5803E71AE160A600AE81F9 /* Constants.swift in Sources */,
+				4F5803E91AE1735500AE81F9 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
