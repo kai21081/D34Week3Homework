@@ -78,6 +78,10 @@ class UserViewController: UIViewController, UICollectionViewDataSource, UISearch
     })
   }
   
+  func searchBar(searchBar: UISearchBar, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
+    return text.validateURL()
+  }
+  
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     if segue.identifier == "ShowUserDetail" {
       let destination = segue.destinationViewController as! UserDetailViewController

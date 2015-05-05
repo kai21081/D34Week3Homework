@@ -48,7 +48,10 @@ class RepositoryViewController: UIViewController,UITableViewDataSource,UISearchB
         }
       }
     })
-    //should get data from github
+  }
+  
+  func searchBar(searchBar: UISearchBar, shouldChangeTextInRange range: NSRange, replacementText text: String) -> Bool {
+    return text.validateURL()
   }
   
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

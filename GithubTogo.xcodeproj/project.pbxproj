@@ -28,6 +28,7 @@
 		4FC22F7C1AF7D7890038B980 /* ToUserDetailAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC22F7B1AF7D7890038B980 /* ToUserDetailAnimationController.swift */; };
 		4FC22FB91AF923010038B980 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC22FB81AF923010038B980 /* MyProfileViewController.swift */; };
 		4FC22FBB1AF934B20038B980 /* MyRepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC22FBA1AF934B20038B980 /* MyRepoViewController.swift */; };
+		4FC22FBE1AF944A20038B980 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC22FBD1AF944A20038B980 /* StringExtension.swift */; };
 		4FFBD6201AE4A97900DC457F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD61F1AE4A97900DC457F /* LoginViewController.swift */; };
 		4FFBD6221AE4BC5300DC457F /* JSONParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFBD6211AE4BC5300DC457F /* JSONParseService.swift */; };
 /* End PBXBuildFile section */
@@ -68,6 +69,7 @@
 		4FC22F7B1AF7D7890038B980 /* ToUserDetailAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToUserDetailAnimationController.swift; sourceTree = "<group>"; };
 		4FC22FB81AF923010038B980 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		4FC22FBA1AF934B20038B980 /* MyRepoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyRepoViewController.swift; sourceTree = "<group>"; };
+		4FC22FBD1AF944A20038B980 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		4FFBD61F1AE4A97900DC457F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
 		4FFBD6211AE4BC5300DC457F /* JSONParseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParseService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 		4FC0CA351ADC5ACC005410F6 /* GithubTogo */ = {
 			isa = PBXGroup;
 			children = (
+				4FC22FBC1AF941B10038B980 /* Extension */,
 				4FC0CA381ADC5ACC005410F6 /* AppDelegate.swift */,
 				4F5803DF1AE04DCC00AE81F9 /* Model */,
 				4F5803E01AE04E1300AE81F9 /* View */,
@@ -185,6 +188,14 @@
 				4FC0CA4D1ADC5ACC005410F6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FC22FBC1AF941B10038B980 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4FC22FBD1AF944A20038B980 /* StringExtension.swift */,
+			);
+			name = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +310,7 @@
 				4F5803E31AE1608400AE81F9 /* GithubService.swift in Sources */,
 				4FC22F761AF72A2C0038B980 /* ImageFetchService.swift in Sources */,
 				4FC22F7A1AF7D4AE0038B980 /* UserDetailViewController.swift in Sources */,
+				4FC22FBE1AF944A20038B980 /* StringExtension.swift in Sources */,
 				4F1C33401AE7761900C79E2D /* WebViewController.swift in Sources */,
 				4FC22FB91AF923010038B980 /* MyProfileViewController.swift in Sources */,
 				4FC22F7C1AF7D7890038B980 /* ToUserDetailAnimationController.swift in Sources */,
