@@ -36,6 +36,7 @@ class RepositoryViewController: UIViewController,UITableViewDataSource,UISearchB
   //MARK: UISearchBarDelegate
   
   func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+    searchBar.resignFirstResponder()
     let githubService = GithubService()
     githubService.fetchReposForSearch(searchBar.text!, completionHandler: { [weak self] (repos, error) -> (Void) in
       if error != nil{
@@ -48,6 +49,15 @@ class RepositoryViewController: UIViewController,UITableViewDataSource,UISearchB
       }
     })
     //should get data from github
+  }
+  
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    if segue.identifier == "ShowWebView"{
+      var webView = segue.destinationViewController as! WebViewController
+      var selectedIndex = self.tableView.indexPathForSelectedRow()!
+      webView.repo = self.repos[selectedIndex.row]
+    }
+    
   }
 
 }

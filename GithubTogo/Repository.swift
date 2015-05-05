@@ -11,8 +11,12 @@ import Foundation
 class Repository{
   
   var name : String!
+  var html_url : String!
+  var avatar_url : String!
   
-  init(name: String){
+  init(name: String, html_url: String, avatar_url: String){
     self.name = name
+    self.html_url = html_url
+    self.avatar_url = avatar_url
   }
 }
